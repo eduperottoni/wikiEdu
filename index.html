@@ -12,24 +12,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 
+    <script src="./scripts/script.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo-header">
-                <img src="./img/logo-white.png" alt="Logo wikiEdu">
+                <a href=""><img src="./img/logo-white.png" alt="Logo wikiEdu"></a>
             </div>
             <ul class="menu-header">
-                <li>Home</li>
-                <li>About us</li>
-                <li>Contact</li>
+                <li><a href="./index.html" id='home'>Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </div>    
     </header>
     <section class='main'>
         <div class="container">
-            <img src="./img/logo-compl.png" alt="Logo wikiEdu">
-            <button class='btn-choose'> CHOOSE PERSONALITY</button>
+            <div class="logo-btn">
+                <div class="complet-logo">
+                    <img src="./img/logo-compl.png" alt="Logo wikiEdu" id='logo-main'>
+                </div>
+                <button class='btn-choose'> CHOOSE PERSONALITY</button>
+            </div>
             <div class="people-list">
                 <div class="p1">
                     <img src="./img/einstein.png" alt="Albert Einstein">
@@ -49,21 +54,25 @@
     <footer>
         <div class="container">
             <div class="footer-desc">
-                <p>Designed and programmed with <img src="./img/heart.png" alt="Amor"> by Eduardo Perottoni</p>
+                <p id='ph1'>Designed and programmed with</p><img src="./img/heart.png" alt="Amor"><p id='ph2'>by Eduardo Perottoni</p>
             </div>
             <div class="social-ntw">
-                <a href="https://github.com/eduperottoni">
-                    <img src="./img/github.png" alt="GitHub">
-                </a>
-                <a href="https://www.facebook.com/edu.perottoni">
-                    <img src="./img/facebook.png" alt="Facebook">
-                </a>
-                <a href="https://www.linkedin.com/in/eduardo-perottoni-6625871a3/">
-                    <img src="./img/linkedln.png" alt="Linkedln">
-                </a>
-                <a href="https://twitter.com/edu_perottoni">
-                    <img src="./img/twitter.png" alt="Twitter">
-                </a>
+                <div class="git-face">
+                    <a href="https://github.com/eduperottoni" target="_blank">
+                        <img src="./img/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.facebook.com/edu.perottoni" target="_blank">
+                        <img src="./img/facebook.png" alt="Facebook">
+                    </a>
+                </div>   
+                <div class="link-tt">
+                    <a href="https://www.linkedin.com/in/eduardo-perottoni-6625871a3/" target="_blank">
+                        <img src="./img/linkedln.png" alt="Linkedln">
+                    </a>
+                    <a href="https://twitter.com/edu_perottoni" target="_blank">
+                        <img src="./img/twitter.png" alt="Twitter">
+                    </a>
+                </div>     
             </div>
         </div>
     </footer>
