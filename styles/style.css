@@ -103,10 +103,11 @@ header ul a:hover{
 
 .main .logo-btn button{
     width: 70%;
+    min-width: 280px;
     max-width: 800px;
     height: auto;
 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
 
     background-color: #f04444;
@@ -116,6 +117,8 @@ header ul a:hover{
     padding:30px;
 
     transition:0.5s;
+
+    outline:none;
 }
 
 .main .logo-btn button:hover{
@@ -127,7 +130,7 @@ header ul a:hover{
 /* Div com display none por padrão 
 Quando o botão é clicado, ela fica com display flex */
 .main .people-list{
-    flex:3;
+    flex:2;
 
     display:none;
     flex-direction: column;
