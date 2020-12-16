@@ -1,0 +1,39 @@
+header ul #contact{
+    color: #000;
+}
+
+.main .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main .form{
+    flex: 5;
+}
+
+.main .form #form-desc{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main form{
+    display: flex;
+    flex-direction:column;
+}
+
+.main .whatsapp{
+    flex: 5;
+}
+
+.main span{
+    flex:1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #f04444;
+    font-size: 30px;
+    font-weight: 700;
+}

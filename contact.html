@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | wikiEdu</title>
+
+    <link rel="icon" href="./img/wkp-logo.png">
+
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-header">
+                <a href=""><img src="./img/logo-white.png" alt="Logo wikiEdu"></a>
+            </div>
+            <ul class="menu-header">
+                <li><a href="./index.html" id='home'>Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="./contact.html" id='contact'>Contact</a></li>
+            </ul>
+        </div>    
+    </header>
+    <section class="main">
+        <div class="container">
+            <article class='form'>
+                <div id='form-desc'>
+                    Contact us by filling out the form
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Name" id=name name=name>
+                    <input type="email" placeholder="E-mail" id=email name=email>
+                    <input type="number" placeholder="CEP" id='cep' name=cep>
+                    <input type="text" placeholder="Adress" id='adress' name='adress'>
+                    <div id ='city-state'>
+                        <input type="text" placeholder="City" id="city" name='city'>
+                        <input type="text" placeholder="State" id="state" name='state'>
+                    </div>
+                    <textarea name="message" id="message" placeholder="Write your message and we'll answer by your e-mail"></textarea>
+                    <input type="submit" id='submit' name="submit" value="Send Form">
+                </form>
+            </article>
+            <span>OR</span>
+            <article class='whatsapp'>
+                <div id='contact-by-whats'>
+                    <strong>Contact us by WhatsApp</strong>
+                </div>
+                <div class="desc">
+                    Click in the image below and you'll be redirected to a new WhatsApp chat
+                </div>
+                <img src="./img/arrow.png" alt="Flecha">
+                <a href=""><img src="./img/whats.png" alt="WhatsApp"></a>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-desc">
+                <p id='ph1'>Designed and programmed with</p><img src="./img/heart.png" alt="Amor"><p id='ph2'>by Eduardo Perottoni</p>
+            </div>
+            <div class="social-ntw">
+                <div class="git-face">
+                    <a href="https://github.com/eduperottoni" target="_blank">
+                        <img src="./img/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.facebook.com/edu.perottoni" target="_blank">
+                        <img src="./img/facebook.png" alt="Facebook">
+                    </a>
+                </div>   
+                <div class="link-tt">
+                    <a href="https://www.linkedin.com/in/eduardo-perottoni-6625871a3/" target="_blank">
+                        <img src="./img/linkedln.png" alt="Linkedln">
+                    </a>
+                    <a href="https://twitter.com/edu_perottoni" target="_blank">
+                        <img src="./img/twitter.png" alt="Twitter">
+                    </a>
+                </div>     
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/script.js" type="text/javascript"></script>
+</body>
+</html>
