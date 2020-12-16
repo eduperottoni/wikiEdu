@@ -75,6 +75,7 @@ header ul a:hover{
     text-align:center;
 
     display: flex;
+    flex-direction: row;
 
     margin-top: 200px;
 }
@@ -241,10 +242,6 @@ footer .container .social-ntw img{
         flex-direction: column;
 
         margin-bottom: 50px;
-    }
-
-    footer {
-        position:initial;
     }
 }
 
