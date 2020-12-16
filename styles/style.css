@@ -53,10 +53,6 @@ header ul a {
     transition: 0.5s;
 }
 
-header ul #home{
-    color: #000;
-}
-
 header ul a:hover{
     color: #fff;
 }
@@ -68,112 +64,6 @@ header ul a:hover{
     height: auto;
 
     margin: 0 auto;
-}
-
-/* ARTICLE PRINCIPAL */
-.main .container{
-    text-align:center;
-
-    display: flex;
-    flex-direction: row;
-
-    margin-top: 200px;
-}
-
-.main .logo-btn{
-    flex:3;
-
-    display:flex;
-    flex-direction:column;
-    justify-content: end;
-    align-items: center;
-
-    padding:30px;
-}
-
-.main .logo-btn .complet-logo{
-    display: flex;
-    justify-content: center;
-}
-
-.main .logo-btn img{
-    max-width: 440px;
-
-    margin-bottom:50px;
-}
-
-.main .logo-btn button{
-    width: 70%;
-    min-width: 280px;
-    max-width: 800px;
-    height: auto;
-
-    font-size: 30px;
-    font-weight: 700;
-
-    background-color: #f04444;
-    border-radius:30px;
-    border:none;
-
-    padding:30px;
-
-    transition:0.5s;
-
-    outline:none;
-}
-
-.main .logo-btn button:hover{
-    background-color: #c4c4c4;
-}
-
-
-
-/* Div com display none por padrão 
-Quando o botão é clicado, ela fica com display flex */
-.main .people-list{
-    flex:2;
-
-    display:none;
-    flex-direction: column;
-    align-items: left;
-    justify-content: space-around;
-
-    background-color: #c4c4c4;
-    border-radius:25px;
-    padding:30px;
-}
-
-
-.main .people-list a{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-
-    padding: 15px;
-    margin:10px;
-
-    border-radius:30px;
-
-    text-decoration: none;
-}
-
-.main .people-list a img{
-    width: 110px;
-    min-width:100px;
-
-    margin-right:20px;
-}
-
-.main .people-list a p{
-    color: #000;
-    font-weight: 700;
-    font-size: 30px;
-
-    text-decoration: none;
-}
-
-.main .people-list a:hover{
-    background-color: #e26b6b;
 }
 
 /*FOOTER*/
@@ -235,13 +125,5 @@ footer .container .social-ntw a{
 
 footer .container .social-ntw img{
     margin: 10px;
-}
-
-@media only screen and (max-width:1100px){
-    .main .container{
-        flex-direction: column;
-
-        margin-bottom: 50px;
-    }
 }
 
