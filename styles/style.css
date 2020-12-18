@@ -12,6 +12,10 @@ body, html{
     width: 100%;
 }
 
+body {
+    background-color:#efefef;
+}
+
 /* CABEÇALHO */
 
 header{
