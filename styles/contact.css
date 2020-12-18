@@ -15,6 +15,7 @@ header ul #contact{
     font-size: 25px;
     font-weight: 700;
     text-align: center;
+    margin: 40px 0 40px;
 }
 
 .main form{
@@ -92,11 +93,6 @@ header ul #contact{
     background-color: #c4c4c4;
 }
 
-
-.main .whatsapp{
-    flex: 5;
-}
-
 .main span{
     flex:1;
 
@@ -107,4 +103,35 @@ header ul #contact{
     color: #f04444;
     font-size: 30px;
     font-weight: 700;
+    padding:10px
+}
+
+.main .whatsapp{
+    flex:5;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.main .whatsapp #whats-logo{
+    width: 150px;
+}
+
+.main .whatsapp #flecha{
+    width: 80px;
+}
+
+@media only screen and (max-width:1100px){
+    .main .container{
+        flex-direction: column;
+    }
+
+    .main{
+        margin-bottom:50px;
+    }
 }

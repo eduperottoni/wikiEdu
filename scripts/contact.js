@@ -6,6 +6,7 @@ const adress = document.getElementById('adress');
 const city = document.getElementById('city');
 const state = document.getElementById('state');
 const nome = document.getElementById('name');
+const foot = document.querySelector('footer');
 
 async function getCep(pesquisa){
     const response = await fetch(pesquisa);
@@ -16,8 +17,6 @@ async function getCep(pesquisa){
 
 
 console.log(getCep(endpoint.replace('value', cep.value)));
-
-
 
 // function fillInputs(pesquisa){
 //     const result = getCep(pesquisa);
