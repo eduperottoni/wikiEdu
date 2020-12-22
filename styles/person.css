@@ -35,9 +35,9 @@
 }
 
 .main .container .token{
-    width:fit-content;
-    margin:0 auto;
+    width: fit-content;
     border-radius: 20px;
+    margin:0 auto 30px auto;
 
     display: flex;
     flex-direction:row;
@@ -57,8 +57,22 @@
     display: flex;
 }
 
+.main .container .token img{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 15px;
+}
+
+.main .container .token .born-death{
+    display: flex;
+    flex-direction:column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
 .main .container .token .basic-info{
-    width: 100%;
     flex-direction: column;
 }
 
@@ -74,6 +88,14 @@
     background-color:mediumseagreen;
 }
 
+.main .container .token .born,
+.main .container .token .death{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .main .container .token .born{
     background-color:#cfe030;
 }
@@ -84,4 +106,16 @@
 
 .main .container .token .b {
     font-weight: bold;
+}
+
+footer{
+    position: initial;
+}
+
+@media only screen and (max-width: 1100px){
+
+    .main .container .token .born-death{
+        flex-direction: row;
+    }
+
 }
