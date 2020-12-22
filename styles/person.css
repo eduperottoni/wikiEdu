@@ -10,24 +10,78 @@
     margin: 30px;
 }
 
-.main .container .token{
-    width:100%;
-    display: flex;
-    justify-content: center;
+.main .abstract{
+    margin: 50px 0 50px 0;
 }
 
-.main .container .token .infos{
+.main .abstract .text{
+    font-size: 25px;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.main .abstract a{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color:#2056cc;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.main .abstract a:hover{
+    color:#093246;
+}
+
+.main .container .token{
+    width:fit-content;
+    margin:0 auto;
+    border-radius: 20px;
+
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
+    flex-wrap: wrap;
     justify-content: space-around;
 
-    margin-left:1.5rem;
+    background-color: #c4c4c4;
 }
 
-.main .container .infos div{
-    background-color: #c4c4c4;
+.main .container .token div{
     font-size:1.75rem;
 
     padding:10px;
+    margin: 10px;
     border-radius:10px;
+
+    display: flex;
+}
+
+.main .container .token .basic-info{
+    width: 100%;
+    flex-direction: column;
+}
+
+.main .container .token .name{
+    background-color: #5959be;
+}
+
+.main .container .token .nacionality{
+    background-color: rgb(182, 56, 56);
+}
+
+.main .container .token .ocupation{
+    background-color:mediumseagreen;
+}
+
+.main .container .token .born{
+    background-color:#cfe030;
+}
+
+.main .container .token .death{
+    background-color: #424647;
+}
+
+.main .container .token .b {
+    font-weight: bold;
 }
