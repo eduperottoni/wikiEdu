@@ -7,7 +7,12 @@
 .title .container h1{
     font-size: 5rem;
     text-align: center;
-    margin: 30px;
+    margin: 30px auto 10px auto;
+}
+
+.title .container #assin{
+    width: 200px;
+    margin: 0 auto 30px auto;
 }
 
 .main .abstract{
@@ -31,7 +36,7 @@
 }
 
 .main .abstract a:hover{
-    color:#093246;
+    color:#f04444;
 }
 
 .main .container .token{
@@ -76,20 +81,6 @@
     flex-direction: column;
 }
 
-.main .container .token .name{
-    background-color: #5959be;
-    color:#fff;
-}
-
-.main .container .token .nacionality{
-    background-color: rgb(182, 56, 56);
-    color:#fff;
-}
-
-.main .container .token .ocupation{
-    background-color:mediumseagreen;
-    color:#fff;
-}
 
 .main .container .token .born,
 .main .container .token .death{
@@ -99,12 +90,16 @@
 
 }
 
-.main .container .token .born{
-    background-color:#cfe030;
+.main .container .token .born:hover,
+.main .container .token .death:hover,
+.main .container .token .name:hover,
+.main .container .token .nacionality:hover,
+.main .container .token .ocupation:hover{
+    background-color: #e26b6b;   
 }
 
-.main .container .token .death{
-    background-color: #424647;
+{
+   
 }
 
 .main .container .token .b {
@@ -118,9 +113,9 @@
     align-items: center;
     margin:0 auto;
 
-    background-color:#0f93c7;
+    background-color:#14d163;
     border: 5px solid #000;
-    border-radius:15px;
+    border-radius:15px 15px 0 0;
 }
 
 .main .timeline h2{
@@ -129,8 +124,11 @@
 }
 
 .main .timeline .time-box{
+    width: auto;
+
     display: flex;
     flex-direction: row;
+    justify-content:flex-start;
     align-items: center;
 
     margin-bottom: 20px;
@@ -162,7 +160,7 @@
 
 }
 .main .timeline .time-box .year{
-    background-color:#2056cc;
+    background-color:#f04444;
     height: 28px;
     font-size:20px;
     padding:5px;
@@ -172,6 +170,8 @@
     justify-content:center;
     align-items:center;
 }
+
+
 
 footer{
     position: initial;
